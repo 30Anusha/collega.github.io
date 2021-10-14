@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="abc.js"></script>
+    
+
+
+  
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>College Website</title>
+  </head>
+  <style>
+    body{
+ background-color: black;
+    }
+
+#navbar {
+  background-color:#A52A2A;
+  position: fixed;
+  width: 100%; 
+  height: 120px;
+      z-index:9;
+  transition: top 0.3s; 
+
+}
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  z-index:9; 
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+
+}
+
+
+.carouselExampleSlidesOnly{
+  position:absolute;
+  width:100%;
+  top:0;
+
+}
+.dropdown-item {
+  color:white;
+  background-color:#A52A2A;
+}
+.dropdown-item :hover{
+  background-color: #ddd;
+}
+#about,#civ,#mech,#cs,#ec,#contact,#overview,#stationery,#canteen,#bus,#library,#hostel{
+  padding-top:120px;
+}
+#gallery{
+  margin-top:70px;
+}
+.q{
+  float:right;
+  font: 100%;
+  max-width: 700px;
+  margin-right:30px;   
+  padding: 16px;
+  margin-bottom:100px;
+  margin-top:-280px;
+  background: rgb(255, 255, 255);
+}
+
+.q input[type="text"],
+.q input[type="number"],
+
+.q textarea,
+.q select 
+{ 
+  box-sizing:initial;
+  width: 90%;
+  background: #fff;
+  margin-bottom: 2%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color:darkslategray;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.q input[type="text"]:focus,
+.q input[type="number"]:focus,
+
+.q textarea:focus,
+.q select:focus
+{
+  padding: 3%;
+  color:black;
+  background-color:greenyellow;
+}
+
+.q input[type="submit"]{ 
+  width: 100%;
+  padding: 3%;
+  background: rgb(255, 60, 0);
+  border-bottom: 2px solid gold;
+  color:darkblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:30px;
+}
+.q input[type="submit"]:hover{
+  background:goldenrod;
+}
+
+  </style>
+
+
+  <body>
+
+      <section id="home">
+            
+    <div id="navbar">
+      <img src="logo.jpeg" style="height:100px;width:100px;float:right;padding-top:20px;padding-right:20px;">
+      <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;padding-top:20px;color:whitesmoke;text-align: center;">SHRI MADHWA VADIRAJA INSTITUTE OF TECHNOLOGY AND MANAGEMENT</h2> 
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+ 
+    
+      <div class="dropdown show">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" style="color:white;background-color:#A52A2A;" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Department details
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#civ" >Civil Engineering</a>
+          <a class="dropdown-item" href="#mech" >Mechanical Engineering</a>
+          <a class="dropdown-item" href="#cs" >Computer Science and Engineering</a>
+          <a class="dropdown-item" href="#ec" >Electronics and Communication Engineering</a>
+        </div>
+      </div>
+    
+      <div class="dropdown show">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" style="color:white;background-color:#A52A2A;" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Facilities
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#overview" >Overview</a>
+          <a class="dropdown-item" href="#library" >Library</a>
+          <a class="dropdown-item" href="#bus" >Bus Facility</a>
+          <a class="dropdown-item" href="#canteen">Cafeteria</a>
+          <a class="dropdown-item" href="#stationery">Stationary</a>
+          <a class="dropdown-item" href="#hostel">Hostel</a>
+
+        </div>
+      </div>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      
+      
+    
+    </div>
+    
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100"  src="smvitm-banner1-min.jpg" style="height:538px;width:100%;margin-top:120px;" alt="First slide">
+      
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="smvitm-banner3-min.jpg" style="height:538px;width:100%;margin-top:120px;" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="new.jpeg"  style="height:538px;width:100%;margin-top:120px;" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="smvitm-banner6-min.jpg"  style="height:538px;width:100%;margin-top:120px;" alt="Third slide">
+            </div>
+           
+            <div class="carousel-item">
+              <img class="d-block w-100" src="welcome.jpg"  style="height:538px;width:100%;margin-top:120px;" alt="Third slide">
+            </div>
+          
+          </div>
+        </div>
+        </section>
+
+
+        <section id="about">
+          <h1 style="color:orange;font-family: 'Times New Roman', Times, serif;padding-left:20px;">ABOUT US</h1>
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/UnJoFEAJr04" title="YouTube video player" style="height:350px;width:400px;float: right;padding-right:20px;padding-left:30px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p style="color:darkgray;font-family: 'Times New Roman', Times, serif;text-align:left;padding-left:20px;font-size:16.45px;">Founded in 2010 by H. H. Shri Vishwavallabha Theertha Swamiji of Shri Sode Vadiraja Mutt – one of the 700 plus years old Ashta Mutts associated with the world famous Shri Krishna temple of Udupi in Karnataka – Shri MadhwaVadiraja Institute of Technology & Management (SMVITM), situated at Bantakal in Udupi has carved a niche for itself in imparting quality engineering education in the coastal Karnataka region. Shri Swamiji started the institute with the sublime objective of providing quality higher education to the needy student community at affordable costs. The motto Engineering your Career and Character with Care well reflects the objectives and philosophy of the institute. Despite, being the youngest institute in the region, SMVITM has made remarkable strides in its journey towards excellence over the past five years and has emerged as the most promising engineering institute with its well-qualified and motivated faculty, state-of-the-art infrastructure and distinguished learning-centric facilities.
+            At present, SMVITM, with a total student intake of 441 per year, offers Bachelor of Engineering (B.E.) courses in Civil Engineering, Computer Science & Engineering Electronics & Communication Engineering and Mechanical Engineering. Currently, 1562 students are pursuing their engineering education at the institute. Despite being located in a rural area, SMVITM ensures that its students are well trained in existing engineering practices and acquainted with the latest industrial trends.<br>
+            <br>Established in the year 2010 under the aegis of Shri Sode Vadiraja Mutt Education Trust®, Udupi, Shri Madhwa Vadiraja Institute of Technology & Management (SMVITM) has emerged as ‘A Promising Institution with a Distinction’. It is located in a picturesque village called Vishwothama Nagar in Bantakal, near world famous temple town Udupi, a relatively small but a culturally vibrant and intellectually enlightened town situated in coastal Karnataka.
+            The institute campus is on the Katapady-Belman road, about 6 km off NH 66, 12 km away from Udupi and well connected to Kundapura, Karkala and Mangalore by road. Shri Shri Vishwavallabha Theertha Swamiji of Paryaya Shri Sode Vadiraja Mutt, Udupi and the president of the Trust, at the very young age of 24 years promoted SMVITM to reach the goal of up-lift of the underprivileged in the form of basic education, in general and technical education, in particular.
+            <br></p>
+      </section>
+    
+
+              <section id="civ" >
+<h1 style="color:darkgoldenrod;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:50px;padding-left:20px;">CIVIL ENGINEERING</h1>
+<img src="images.jpeg" style="float: right;padding-right: 30px;">
+<p  style="color:darkgray;font-family: 'Times New Roman', Times, serif;text-align:left;padding-left:20px;font-size:17.5px;">The Civil Engineering Department has been in existence since the inception of the Institute during the academic year 2010-11 with an intake approval of 60 students. The Department has got a highly qualified team of faculty members having rich experience within academia and industry. The Department is committed to provide quality education and produce competent engineers to meet the growing demand for professionals in civil engineering.
+
+  The Department invites eminent personalities and academicians from prestigious Institutions and industries to deliver quality lectures to the students frequently and has organized many highly useful workshops which are beneficial to the faculty, students and practising engineers. The faculty members attend various workshops/conferences/training programs on a regular basis, which would keep them abreast with the latest happenings and developments occurring in their related fields and upgrade their competencies and skill-sets up to date.</p>
+  <img src="civil.PNG" style="height:153px;width:352px;float:right;padding-right:30px"> 
+<p style="color:darkgray;top:100px;font-family: 'Times New Roman', Times, serif;text-align:left;padding-left:20px;
+font-size:17.5px;"> OUR VISION<br>
+
+“To establish a renowned centre to impart quality technical education, leadership qualities, professional ethics so as to contribute civil engineers to the society, capable of meeting global challenges”.
+<br><br>OUR MISSION<br>
+To provide unparalleled infrastructural facilities for imparting quality education at affordable cost.
+To provide an academic environment conducive for quality education and research, focusing on transfer of knowledge for the benefit of the profession and society.
+To nurture talent in students and staff to enable them to be leaders in their chosen professions while maintaining the highest levels of ethics.
+To create awareness about innovation and ideation amongst students to promote entrepreneurship.
+To provide a platform for effective interactions and networking amongst all stake-holders so as to achieve excellence in education, research and outreach activities.
+</p>            
+ </section>
+ 
+              <section id="mech">
+                <h1 style="color:darkgoldenrod;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:50px;padding-left:20px;">MECHANICAL ENGINEERING</h1>
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/ZXTo1xKL9S0" style="padding-left:20px;float:left;padding-right:30px;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p  style="color:darkgray;font-family: 'Times New Roman', Times, serif;text-align:left;padding-left:30px;font-size:17.5px;">
+                 
+                  The Department of Mechanical Engineering at SMVITM started functioning in the year 2010. The Department offers an undergraduate program in mechanical engineering that covers a wide range of topics in the field of mechanical engineering such as thermal and fluid sciences, engineering design, dynamics and control, materials, manufacturing, modelling and simulation as per the VTU curriculum to suit the interests of students and meet the industry requirements.
+  
+                  The student intake capacity of the Department is 120. Teaching and learning activities at the Department are designed in such a way as to stimulate intellectual curiosity, creativity and innovation in students. The Department has a well qualified and experienced team of faculty members who have their specializations in the different branches/areas of mechanical engineering. The highly committed faculty with their innovative ideas guides the students with their projects and industry assignments. The efforts of faculty, well experienced supporting staff, enabling learning environment and availability of modern facilities are reflected in the excellent performance of the students. 
+                 
+                 
+                  <img src="images (1).jpeg" style="height:153px;width:352px;float:right;padding-right:30px;margin-top:40px;"> 
+                <p style="color:darkgray;top:100px;font-family: 'Times New Roman', Times, serif;text-align:left;padding-left:20px;
+                font-size:17.5px;"> OUR VISION<br>
+                
+                " To become a center of excellence in Mechanical Engineering and contribute to technological and socio-economic developments "
+                <br>OUR MISSION<br>
+                To develop the professional potential of faculty, staff and students by providing state of the art facilities.
+                To impart quality engineering education in Mechanical engineering to provide basic and specialized engineering training to meet the current and emerging needs of the society.
+                To prepare the students for successful engineering career by inculcating the leadership qualities to encourage entrepreneurship, professional and ethical responsibilities.
+                To promote collaboration with industries/institutes for academic, research and consultancy.
+                </p>            
+              </section>
+
+
+              <section id="cs">
+              
+                  <h1 style="color:darkgoldenrod;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:50px;padding-left:20px;">COMPUTER SCIENCE AND ENGINEERING</h1>
+                
+                  <iframe width="400" height="250" src="https://www.youtube.com/embed/5aX93vp3NQE" style="padding-left:20px;float:left;padding-right:30px;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <p  style="color:darkgray;font-family: 'Times New Roman', Times, serif;text-align:left;padding-left:30px;font-size:17.5px;">Today, most of the real world activities and fields, right from calculations to space exploration are being computerized as the operations can be much faster and error free with the computer applications. This has resulted in an increased demand for skilled and competent professionals in the computer engineering sector. To cater to this, the Department of Computer Science & Engineering was established at SMVITM in 2010, offering Bachelor of Engineering course with an intake of 60 students per year. The intake was raised to 120 students from the academic year 2012-13. The Department aims at training the students to be industry-ready by the end of their course through regular curriculum as prescribed by the University and also with supplementary programs, throughout their study.
+                    The Department of Computer Science & Engineering is one of the much sought after departments at SMVITM. The Department has well qualified and motivated faculty members who are highly committed to the overall development of the students.</p>
+                   </p>
+                    <img src="computer-science-500x500.jpg" style="height:153px;width:342px;float:right;padding-right:30px"> <br>
+                  <p style="color:darkgray;top:100px;font-family: 'Times New Roman', Times, serif;text-align:left;padding-left:20px;
+                  font-size:17.5px;"> OUR VISION<br>
+                  
+                  " To become a centre of excellence, in the field of Computer Science and Engineering education and research, catering the needs of the industry and society “
+                  <br>OUR MISSION<br>
+                  To educate the Computer Science Engineering aspirants with basic and advanced technologies.
+To prepare students with additional skill-set so that, they can make a difference in competitive environments.
+To orient themselves towards continuously improve their technological skills.
+To train students to communicate effectively and be faithful to ethical values.
+                  </p>            
+              </section>
+
+
+                <section id="ec">
+
+                  <h1 style="color:darkgoldenrod;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:50px;padding-left:20px;">ELECTRONICS AND COMMUNICATION ENGINEERING</h1>
+                  <iframe width="400" height="250" src="https://www.youtube.com/embed/GWzwMmppCos"  style="padding-left:20px;float:left;padding-right:30px;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <p  style="color:darkgray;font-family: 'Times New Roman', Times, serif;text-align:left;padding-left:30px;font-size:17.5px;">Electronics today stands at the forefront of the rapidly expanding horizon of Science and Technology. The Department of Electronics and Communication Engineering in SMVITM was established in the year 2010, initially offering an undergraduate program with an intake of 60 students per year. The intake was increased to 120 in the academic year 2012-13. The department has well-qualified faculty members – highly motivated in teaching and guiding the students in exploring newer avenues of electronics and communication.
+
+                    The department is intent on creative and technologically advanced skill transfer to the students through teaching, mentoring and counselling. It regularly organizes seminars, symposiums, workshops and invited talks by eminent faculty from reputed institutions and industry experts, to keep the students abreast of the latest technological developments in related fields. The services of some academicians of high repute have been utilized by the department with the objective of supplementing teaching, mentoring and guiding the students as well as faculty members.</p>
+                   </p>
+                    <img src="enc2.jpg" style="height:153px;width:342px;float:right;padding-right:30px"> <br>
+                  <p style="color:darkgray;top:100px;font-family: 'Times New Roman', Times, serif;text-align:left;padding-left:20px;
+                  font-size:17.5px;"> OUR VISION<br>
+                  
+                  ” To emerge as an excellent technical education center and be an integral part in the development of advancing technologies and global challenges, in the field of Electronics and Communication Engineering ”
+                  <br>OUR MISSION<br>
+                  To facilitate an ambience conducive to the excellence in technical education.
+                  To provide a platform that will ensure the exchange of ideas and dissemination of knowledge.
+                  To establish a research oriented center by having rapport with industries.
+                  To foster ethical and value based education with credibility by promoting activities that have societal impact.
+                  </p>   
+                </section>
+<section id="overview">
+  <h1 style="color:olive;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Glimpse of SMVITM</h1>
+  <iframe width="740" height="480" style="padding-left:180px;" src="https://www.youtube.com/embed/cmZgirG1ni4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+<section id="library">
+  <h1 style="color:olive;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Library</h1>
+  <img src="lib.jpeg" style="height:300px;width:400px;margin-left:300px;">
+  <p style="color:plum;float:right;font-family: cursive;">The Central Library at SMVITM is housed in a spacious three-storey state of the art independent block. Two floors of the block are occupied exclusively by the Central Library. It has about 1300 square meters of built-up area. The Central Library has a collection of 28,000 volumes of reference/text books, e-books and general category books with over 3,500 titles. In addition to these, there are periodicals and CDs on science, engineering and technology.
+
+   <br> The collection includes reference books such as dictionaries, encyclopedias, handbooks and standards. The library offers a book bank scheme for the students, a special book bank scheme exclusively for SC/ST students, reprography and printing facilities. The library subscribes to e-journals and print journals. An e-learning center providing live transmission of VTU EDUSAT programme is a special feature of the Central Library. In addition to the central library, each department has a separate departmental library for ready reference for its faculty and staff.</p>
+
+  </section>
+<section id="bus" style="margin-top:50px;">
+  <h1 style="color:olive;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Bus Facility</h1>
+  <img src="Transport of Shri Madhwa Vadiraja Institute of Technology and Management Udupi_Transport.jpg" style="height:380px;width:680px;margin-left:300px;">
+  <p style="color:plum;float:right;font-family: cursive;"><br>The Institution provides bus facility to daily commuters for both students and staff from Udupi, Kundapur, Hiriyadka, Saibarakatte and Manipal. Around 300 commuters avail this facility for conveyance to and from the college. An Institutional Bus coordinator is available for any queries regarding transportation.
+
+    </p>
+</section>
+<section id="canteen" style="margin-top:50px;">
+  <h1 style="color:olive;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Cafeteria</h1>
+  <img src="canteen.jpg" style="height:380px;width:680px;margin-left:300px;">
+  <p style="color:plum;float:right;font-family: cursive;"><br>SMVITM campus has a separate cafeteria that is well ventilated and clean with sufficient number of seating and service capacity for students/staff.
+
+    The Cafeteria provides hygienic and delicious South Indian, North Indian, Chinese food items. It also provides bakery items, chats, fruit juices and variety of ice creams
+    </p>
+</section>
+<section id="stationery" style="margin-top:50px;">
+  <h1 style="color:olive;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Stationary</h1>
+  <img src="Stationary of Shri Madhwa Vadiraja Institute of Technology and Management Udupi_Covenience-Store.jpeg" style="height:380px;width:680px;margin-left:300px;">
+  <p style="color:plum;float:right;font-family: cursive;float:left"><br>College has a stationery shop and also a photocopying center inside the campus with subsidized rates for the benefit of students.
+</section>
+<section id="hostel" style="margin-top:50px;">
+  <h1 style="color:olive;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Hostel</h1>
+  <img src="hostel2.png" style="height:290px;width:360px;margin-left:100px;">
+  <img src="Hostel.jpg" style="height:290px;width:360px;margin-left:300px;">
+  <p style="color:plum;float:right;font-family: cursive;float:left"><br>The institution has separate Boys and Girls hostels are available on sharing basis in order to provide a good atmosphere to the students to pursue their studies.
+   <b><br>Committee Objectives</b> <br>
+    To provide comfortable accommodation to SMVITM students.<br>
+To ensure good atmosphere for study and exchange of thoughts and ideas.<br>
+To ensure that students coming from different parts of the country learn to live together and strengthen their relations with mutual cooperation and goodwill.<br>
+To provide healthy and hygienic food at reasonable price.
+  </p>
+  </section>
+
+
+
+<section id="gallery">
+  <h1 style="color:darkgoldenrod;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:50px;padding-left:20px;">GALLERY</h1>
+  <img src="dance1.png" style="height:200px;width:200px;margin:10px;">
+  <img src="music1.png" style="height:200px;width:200px;margin:10px;">
+  
+  <img src="dance2.png" style="height:200px;width: 200px;margin:10px;">
+  <img src="music2.jpg" style="height:200px;width:200px;margin:10px;">
+
+  <img src="dance3.png" style="height:200px;width:200px;margin:10px;">
+  <img src="yakshagana.png" style="height:200px;width:200px;margin:10px;">
+
+  <img src="dance4.png" style="height:200px;width:200px;margin:10px;">
+  <img src="flute1.PNG" style="height:200px;width:200px;margin:10px;">
+
+  <img src="dance5.jpg" style="height:200px;width:200px;margin:10px;">
+  <img src="dance6.jpg" style="height:200px;width:200px;margin:10px;">
+ 
+   
+</section>
+
+
+
+
+
+
+                <section id="contact">
+                  <h1 style="color:orange;font-family: 'Times New Roman', Times, serif;padding-left:20px;">CONTACT US</h1>
+                 
+                 <p style="color:black;top:100px;font-family: 'Times New Roman', Times, serif;text-align:left;padding-left:20px;
+                 font-size:15.5px;background-color:grey;margin-right:800px;margin-left:30px;">
+                 <b>Institute Campus:</b>
+                 <br>
+                  Shri Madhwa Vadiraja Institute of Technology and Management<br>
+                  Vishwothama Nagar, Bantakal<br>
+                  Udupi – 574 115, Karnataka, India<br>
+
+                  Tel: +91 9611615001<br>
+                  E-mail id:info@sode-edu.in<br>
+                  
+                 <b>SSVMET Office:</b><br>
+                  Shri Sode Vadiraja Mutt Education Trust<br>
+                  Bhoovaraha Complex, Car Street, Udupi- 576101<br>
+                  Fax: +91-820-4294006<br>
+                  E-mail: trust@sode-edu.in<br></p>
+                  <div class="q">                        
+                    <form action="#">
+               <input type="text" name="name" placeholder=" Name"required />
+              <input type="number" name="no" placeholder="Age" required />
+              <label for="gender" style="padding-left:10px;" >Gender:</label>
+              <label for="male" style="padding-left:10px;">Male</label>
+              <input type="radio" name="gender" value="male">
+              <label for="female" style="padding-left:10px;">Female</label>
+              <input type="radio" name="gender" value="female"><br>
+                <textarea name="message" placeholder="Type your Message"></textarea><br>
+                <label for="checkbox">I Agree that the informa
+                  tion given is valid </label>
+                <input type="checkbox" name="agree" required>
+                <br><br>
+                <input type="submit" value="Submit"/>
+               
+                </form>
+                
+                </div>
+                
+           
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.529346240714!2d74.7852997!3d13.254826800000124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbcaffcb81452c5%3A0xb18b6b77e04b088b!2sShri%20Madhwa%20Vadiraja%20Institute%20of%20Technology%20and%20Management!5e0!3m2!1sen!2sin!4v1633021758504!5m2!1sen!2sin" width="550" height="200" style="border:0;float:left;padding-left:30px;" allowfullscreen="" loading="lazy"></iframe>
+                </section>
+             
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
